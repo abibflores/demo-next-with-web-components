@@ -1,0 +1,28 @@
+{
+  "dependencies": {
+    "next": "^12.2.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "name": "demo-next-with-web-components",
+  "description": "En este repo estaremos probando como usar web components dentro de nuestra app de next, pero tmbn podremos servir este web component para poderlo usar en cualquier desarrollo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "dev": "next dev -p 3030",
+    "build": "next build",
+    "export": "npm run build && next export"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abibflores/demo-next-with-web-components.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abibflores/demo-next-with-web-components/issues"
+  },
+  "homepage": "https://github.com/abibflores/demo-next-with-web-components#readme"
+}
